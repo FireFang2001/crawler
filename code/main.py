@@ -150,8 +150,8 @@ def is_any_alive(spider_threads):
                 for spider_thread in spider_threads])
 
 
-redis_client = redis.Redis(host='101.132.164.252', port=6379, password='root')
-mongo_client = pymongo.MongoClient(host='47.98.56.23', port=27017)
+redis_client = redis.Redis(host='', port=6379)
+mongo_client = pymongo.MongoClient(host='', port=27017)
 sohu_data_coll = mongo_client.msohu.webpages
 hasher_proto = sha1()
 
