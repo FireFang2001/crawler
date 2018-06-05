@@ -42,3 +42,4 @@ dushu/
 ----scrapy.cfg  
 #### 在PyCharm上配置debug
 
+![avatar](/img/scrapydebug.png)
