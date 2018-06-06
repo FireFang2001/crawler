@@ -27,7 +27,7 @@ pip install pypiwin32
 ```
 #### 创建Scrapy项目
 ```
-scrapy startproject dushuwang .
+scrapy startproject dushu .
 scrapy genspider books www.dushu.com
 ```
 Scrapy会创建下列文件：
